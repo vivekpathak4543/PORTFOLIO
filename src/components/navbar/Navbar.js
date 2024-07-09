@@ -27,17 +27,18 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
+          <div
             style={{
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20;",
+              marginTop: "22px",
+              marginBottom: "20px",
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+            <DiCssdeck size="3rem" /> <Span>Vivek Pathak</Span>
+          </div>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => setIsOpen(!isOpen)} />
@@ -60,7 +61,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             />
             <MobileNavLogo to="/">
-              <a
+              <div
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -69,7 +70,7 @@ const Navbar = () => {
                 }}
               >
                 <DiCssdeck size="2rem" /> <Span>Portfolio</Span>
-              </a>
+              </div>
             </MobileNavLogo>
             <MobileLink href="#about" onClick={() => setIsOpen(!isOpen)}>
               About

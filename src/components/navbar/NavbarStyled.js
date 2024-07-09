@@ -75,7 +75,7 @@ export const NavLink = styled.a`
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
-  margin-top: 4px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   height: 70%;
@@ -103,7 +103,7 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align_items: center;
   padding: 0 6px;
-  @media screen and(max-width:768px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -185,7 +185,7 @@ export const MobileNavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;

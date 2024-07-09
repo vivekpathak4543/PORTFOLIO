@@ -10,7 +10,6 @@ import {
   CardContainer,
   ToggleButtonGroup,
   ToggleButton,
-  Divider,
 } from "./ProjectStyled";
 
 const Project = ({ openModal, setOpenModal }) => {
@@ -26,7 +25,7 @@ const Project = ({ openModal, setOpenModal }) => {
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton
-              active
+              active="true"
               value="all"
               onClick={() => {
                 setToggle("all");
@@ -36,6 +35,7 @@ const Project = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           ) : (
             <ToggleButton
+              active="false"
               value="all"
               onClick={() => {
                 setToggle("all");
@@ -47,17 +47,19 @@ const Project = ({ openModal, setOpenModal }) => {
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => (
+            projects.map((project, id) => (
               <ProjectCard
+                key={project.id}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
+                key={project.id}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}

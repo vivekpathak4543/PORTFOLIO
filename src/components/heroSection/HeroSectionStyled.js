@@ -5,6 +5,7 @@ export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
+  align-item: center;
   position: relative;
   padding: 80px 30px;
   @media (max-width: 960px) {
@@ -94,6 +95,8 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  align-item: center;
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;

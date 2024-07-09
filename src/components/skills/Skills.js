@@ -21,11 +21,11 @@ const Skills = () => {
         <Desc>Here are some of my skills on which I have been working on.</Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill.id}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
+                {skill.skills.map((item, index) => (
+                  <SkillItem key={index}>
                     <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>

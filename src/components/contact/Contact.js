@@ -40,7 +40,9 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact Me 🚀 </Title>
+        <Title>
+          Contact Me <span>🚀</span>{" "}
+        </Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>

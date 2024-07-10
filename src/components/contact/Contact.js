@@ -41,7 +41,10 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>
-          Contact Me <span>🚀</span>{" "}
+          Contact Me{" "}
+          <span role="img" aria-label="rocket">
+            🚀
+          </span>{" "}
         </Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!

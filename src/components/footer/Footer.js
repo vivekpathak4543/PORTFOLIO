@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";

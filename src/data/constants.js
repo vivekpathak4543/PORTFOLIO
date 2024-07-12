@@ -5,7 +5,8 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vivekpathak4543",
   linkedin: "https://www.linkedin.com/in/vivek-pathak-10624b152/",
-  resume: "",
+  resume:
+    "https://www.canva.com/design/DAF6h8oUyWo/RjZp3WuqrYeiXue3a_VTOA/view?utm_content=DAF6h8oUyWo&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   instagram: "https://www.instagram.com/pvivek011/?hl=en",
   facebook: "https://www.facebook.com/vivek.pathak.585559",
 };

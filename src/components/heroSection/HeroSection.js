@@ -2,7 +2,7 @@ import React from "react";
 import HeroBgAnimation from "../heroSection/heroBgAnimation/HeroBgAnimation.js";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/images.png";
+import HeroImg from "../../images/images.jpg";
 import {
   HeroContainer,
   HeroBg,

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -75,7 +76,8 @@ export const HeroRightContainer = styled.div`
   width: 100%;
   display: flex;
   order: 2;
-  justify-content: end;
+  justify-content: center;
+  align-item: center;
   gap: 12px;
   @media (max-width: 960px) {
     order: 1;
@@ -93,12 +95,13 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   justify-content: center;
   align-item: center;
-  max-width: 400px;
+  max-width: 405px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 10px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;

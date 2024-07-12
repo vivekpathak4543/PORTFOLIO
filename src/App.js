@@ -3,7 +3,8 @@ import { ThemeProvider } from "styled-components";
 import styled from "styled-components";
 import { BrowserRouter as Router } from "react-router-dom";
 import { useState } from "react";
-import { darkTheme, lightTheme } from "./utils/Themes";
+import { darkTheme, lightTheme } from "./utils/Themes.js";
+import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import HeroSection from "./components/heroSection/HeroSection";
 import Footer from "./components/footer/Footer";
@@ -35,7 +36,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>

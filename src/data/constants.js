@@ -6,6 +6,8 @@ export const Bio = {
   github: "https://github.com/vivekpathak4543",
   linkedin: "https://www.linkedin.com/in/vivek-pathak-10624b152/",
   resume: "",
+  instagram: "https://www.instagram.com/pvivek011/?hl=en",
+  facebook: "https://www.facebook.com/vivek.pathak.585559",
 };
 export const skills = [
   {

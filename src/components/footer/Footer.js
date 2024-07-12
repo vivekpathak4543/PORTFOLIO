@@ -3,8 +3,6 @@ import styled from "styled-components";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-
 import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
@@ -102,11 +100,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
+          <SocialMediaIcon href={Bio.instagram} target="display">
             <InstagramIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Vivek Pathak. All rights reserved.</Copyright>

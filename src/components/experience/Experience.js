@@ -21,7 +21,7 @@ const Experience = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          My work experience as a Web Developer and working on different
+          My work experience as a Full Stack Developer and working on different
           projects.
         </Desc>
         <TimelineSection>
